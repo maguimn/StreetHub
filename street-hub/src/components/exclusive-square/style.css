@@ -1,0 +1,72 @@
+.cards-list {
+
+  width: 100%;
+  height: 300px;
+  max-width: 1440px;
+  /* Adicionado: Largura máxima de 1440px */
+  margin: 0 auto;
+  /* Adicionado: Para centralizar na página */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Restante do seu código permanece inalterado */
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  color: white;
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: white;
+}
+
+.card_title .title-white p{
+  text-decoration: none;
+  color: white;
+}
+
+.cards-list a{
+  text-decoration: none;
+  color: white;
+}
